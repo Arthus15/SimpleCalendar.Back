@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalendar.WebApi", "SimpleCalendar.WebApi\SimpleCalendar.WebApi.csproj", "{CD977A40-7EBC-46E7-B04C-487975B95E62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{771AF0C0-AA25-42D9-A117-B30E9F0EAA8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Abstracts", "2.Abstracts", "{29746FE8-92FC-4E8B-9111-496B33C67AAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Core", "3.Core", "{3F6A0E4C-8F06-4E52-8A33-17DC984684FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalendar.Abstracts", "SimpleCalendar.Abstracts\SimpleCalendar.Abstracts.csproj", "{7AFC1343-4326-4CC7-B743-756B437A75AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalendar.Core", "SimpleCalendar.Core\SimpleCalendar.Core.csproj", "{08E342C0-BE45-499A-A9B4-C4F3440E4C49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD977A40-7EBC-46E7-B04C-487975B95E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD977A40-7EBC-46E7-B04C-487975B95E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD977A40-7EBC-46E7-B04C-487975B95E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD977A40-7EBC-46E7-B04C-487975B95E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFC1343-4326-4CC7-B743-756B437A75AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFC1343-4326-4CC7-B743-756B437A75AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFC1343-4326-4CC7-B743-756B437A75AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFC1343-4326-4CC7-B743-756B437A75AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E342C0-BE45-499A-A9B4-C4F3440E4C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E342C0-BE45-499A-A9B4-C4F3440E4C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E342C0-BE45-499A-A9B4-C4F3440E4C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E342C0-BE45-499A-A9B4-C4F3440E4C49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD977A40-7EBC-46E7-B04C-487975B95E62} = {771AF0C0-AA25-42D9-A117-B30E9F0EAA8C}
+		{7AFC1343-4326-4CC7-B743-756B437A75AB} = {29746FE8-92FC-4E8B-9111-496B33C67AAC}
+		{08E342C0-BE45-499A-A9B4-C4F3440E4C49} = {3F6A0E4C-8F06-4E52-8A33-17DC984684FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D28980E6-4446-4E93-B338-64A1CDAE0081}
+	EndGlobalSection
+EndGlobal
