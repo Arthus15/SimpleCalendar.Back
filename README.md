@@ -164,7 +164,7 @@ Get Weather is in fact really trivial, once you know how to parse date
         }
 ```
 
-##3. How to try it?
+## 3. How to try it?
 
 * Clone the repository
 * Open it with Visual Studio 2019
@@ -174,7 +174,7 @@ What should I get?:
 
 ![](exampleback.png)
 
-##4. Conclusions
+## 4. Conclusions
 
 I think that the aim of the exercise has been succesfully achieve, however, for time reasons I couldn't show some important skills as can be exception control, logging, testing, etc.
 In fact, I hope the effort and dedication be considered as a plus and not as a handicap.
